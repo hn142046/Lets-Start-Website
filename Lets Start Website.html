@@ -17,8 +17,13 @@
         .header
         {
             display: flex;
-            height: 67px;
+            position: fixed;
+            z-index: 2;
+            height: 70px;
             align-items: center;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0px 1px 8px -1px black;
         }
         .nav-items
         {
@@ -36,11 +41,23 @@
          /* text-align: center; */
           align-items: center;
         }
-        a:hover
+        .nav-items:hover
         {
           background-color: #ccc;
         }
-
+        section
+        {
+          min-height: calc(100vh - 360px);
+        }
+        .master-image
+        {
+          width: 100%;
+        }
+        footer
+        {
+          height: 290px;
+          background-color: black;
+        }
     </style>
 </head>
 <body>
@@ -64,7 +81,14 @@
           <i class="fas fa-envelope"></i> CONTACT
         </a>
     </header>
-    
+    <section>
+      <div class="masterImage">
+        <img src="mac.jpg" alt="master-image" class="master-image">
+      </div>
+    </section>
+    <footer>
+
+    </footer>
 
 </body>
 </html>
