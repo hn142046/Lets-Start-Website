@@ -17,9 +17,10 @@
         .header
         {
             display: flex;
-            height: 100px;
+            height: 67px;
+            align-items: center;
         }
-        a
+        .nav-items
         {
             text-decoration: none;
             color: #000000;
@@ -31,6 +32,13 @@
         .logo
         {
           flex-grow: 1;
+          padding: 25px;
+         /* text-align: center; */
+          align-items: center;
+        }
+        a:hover
+        {
+          background-color: #ccc;
         }
 
     </style>
@@ -40,19 +48,19 @@
         <a href="http://" target="_blank" rel="noopener noreferrer" class="logo">
             <img src="logo.PNG" alt="LOGO" >
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a href="http://" target="_blank" rel="noopener noreferrer" class="nav-items">
             ABOUT
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a href="http://" target="_blank" rel="noopener noreferrer" class="nav-items">
           <i class="fas fa-user"></i> TEAM
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a href="http://" target="_blank" rel="noopener noreferrer" class="nav-items">
           <i class="fas fa-briefcase"></i> WORK
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a href="http://" target="_blank" rel="noopener noreferrer" class="nav-items">
           <i class="fas fa-dollar-sign"></i> PRICING
         </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a href="http://" target="_blank" rel="noopener noreferrer" class="nav-items">
           <i class="fas fa-envelope"></i> CONTACT
         </a>
     </header>
